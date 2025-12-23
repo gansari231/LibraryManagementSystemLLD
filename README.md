@@ -14,29 +14,29 @@ SOLID principles, and clean code practices.
 - Factory Pattern
 
 ## Class Diagram
-Book
- ├── isbn
- ├── title
- ├── author
- ├── publicationYear
- └── available
+Book 
+ ├── isbn 
+ ├── title 
+ ├── author 
+ ├── publicationYear 
+ └── available 
 
-Patron
- ├── patronId
- ├── name
- └── borrowingHistory
+Patron 
+ ├── patronId 
+ ├── name 
+ └── borrowingHistory 
 
-InventoryService
- └── manages → Book
+InventoryService 
+ └── manages → Book 
 
-PatronService
- └── manages → Patron
+PatronService 
+ └── manages → Patron 
 
-LendingService
- └── uses → Book, Patron
+LendingService 
+ └── uses → Book, Patron 
 
-BookFactory
- └── creates → Book
+BookFactory 
+ └── creates → Book 
 
 
 ## Tech Stack
