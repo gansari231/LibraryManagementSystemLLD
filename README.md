@@ -15,15 +15,23 @@ SOLID principles, and clean code practices.
 
 ## Class Diagram
 Book 
+
  ├── isbn 
+ 
  ├── title 
+ 
  ├── author 
+ 
  ├── publicationYear 
+ 
  └── available 
 
 Patron 
+
  ├── patronId 
+ 
  ├── name 
+ 
  └── borrowingHistory 
 
 InventoryService 
