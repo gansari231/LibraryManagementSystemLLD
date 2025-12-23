@@ -15,9 +15,7 @@ SOLID principles, and clean code practices.
 
 ## Class Diagram
 Book 
-
  ├── isbn 
- 
  ├── title 
  
  ├── author 
@@ -35,15 +33,19 @@ Patron
  └── borrowingHistory 
 
 InventoryService 
+
  └── manages → Book 
 
 PatronService 
+
  └── manages → Patron 
 
 LendingService 
+
  └── uses → Book, Patron 
 
 BookFactory 
+
  └── creates → Book 
 
 
